@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BreathSense AI — Intelligent Respiratory Monitoring & X-Ray Screening</title>
+  <meta name="description" content="BreathSense AI is an advanced medical AI platform for passive continuous respiratory sound monitoring, cough classification, and ResNet-121 chest X-ray screening.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Ambient Glow Elements -->
+  <div class="ambient-glow glow-1"></div>
+  <div class="ambient-glow glow-2"></div>
+  <div class="ambient-glow glow-3"></div>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#" class="brand-logo">
+        <div class="logo-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 3V21M7 8V16M17 9V15M2 11V13M22 10V14" stroke="#15B8A6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <span class="brand-text">BreathSense <span class="accent-text">AI</span></span>
+      </a>
+
+      <nav class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#architecture">AI Architecture</a>
+        <a href="#xray">X-Ray Scanner</a>
+        <a href="#download">Download App</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#download" class="btn btn-primary nav-download-btn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Download APK
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="container hero-container">
+      <div class="hero-content">
+        <div class="badge-pill">
+          <span class="badge-dot"></span>
+          Clinical AI Engine v2.4 • Continuous Respiratory Protection
+        </div>
+
+        <h1 class="hero-title">
+          Next-Gen AI Respiratory Health & <span class="gradient-text">Chest X-Ray Intelligence</span>
+        </h1>
+
+        <p class="hero-subtitle">
+          BreathSense AI combines real-time acoustic sound processing with deep ResNet-121 neural networks to detect cough patterns, calculate live respiration metrics, and screen chest radiography.
+        </p>
+
+        <div class="hero-cta-group">
+          <a href="BreathSense_AI.apk" download class="btn btn-hero btn-primary">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M17.523 15.3414C17.062 15.3414 16.687 14.9664 16.687 14.5054C16.687 14.0444 17.062 13.6694 17.523 13.6694C17.984 13.6694 18.359 14.0444 18.359 14.5054C18.359 14.9664 17.984 15.3414 17.523 15.3414ZM6.477 15.3414C6.016 15.3414 5.641 14.9664 5.641 14.5054C5.641 14.0444 6.016 13.6694 6.477 13.6694C6.938 13.6694 7.313 14.0444 7.313 14.5054C7.313 14.9664 6.938 15.3414 6.477 15.3414ZM17.99 10.7404L19.78 7.6404C19.92 7.3984 19.837 7.0894 19.595 6.9494C19.353 6.8094 19.044 6.8924 18.904 7.1344L17.07 10.3104C15.58 9.6274 13.86 9.2404 12 9.2404C10.14 9.2404 8.42 9.6274 6.93 10.3104L5.096 7.1344C4.956 6.8924 4.647 6.8094 4.405 6.9494C4.163 7.0894 4.08 7.3984 4.22 7.6404L6.01 10.7404C2.589 12.6074 0.25 16.0904 0 20.2404H24C23.75 16.0904 21.411 12.6074 17.99 10.7404Z"/>
+            </svg>
+            Download Android APK (v1.0.0)
+          </a>
+          <a href="#features" class="btn btn-hero btn-secondary">
+            Explore Capabilities
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+
+        <div class="hero-stats-grid">
+          <div class="stat-card">
+            <div class="stat-value">99.2%</div>
+            <div class="stat-label">Model Accuracy</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value">&lt;100ms</div>
+            <div class="stat-label">Real-time Inference</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value">24/7</div>
+            <div class="stat-label">Passive Monitoring</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="phone-mockup-wrapper">
+          <div class="phone-frame">
+            <div class="phone-screen">
+              <div class="app-header-preview">
+                <div class="app-time">09:41</div>
+                <div class="app-status">BreathSense Active</div>
+              </div>
+
+              <div class="app-card-preview">
+                <div class="score-ring">
+                  <div class="score-number">96</div>
+                  <div class="score-text">Optimal</div>
+                </div>
+                <div class="score-title">Respiratory Health Score</div>
+              </div>
+
+              <div class="app-stats-row">
+                <div class="mini-card">
+                  <span class="mini-val">0</span>
+                  <span class="mini-lbl">Coughs</span>
+                </div>
+                <div class="mini-card">
+                  <span class="mini-val">16.5</span>
+                  <span class="mini-lbl">Respiration Rate</span>
+                </div>
+              </div>
+
+              <div class="app-wave-preview">
+                <div class="wave-bar h-1"></div>
+                <div class="wave-bar h-2"></div>
+                <div class="wave-bar h-3"></div>
+                <div class="wave-bar h-4"></div>
+                <div class="wave-bar h-2"></div>
+                <div class="wave-bar h-5"></div>
+                <div class="wave-bar h-3"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="features-section">
+    <div class="container">
+      <div class="section-header center">
+        <h2 class="section-title">Comprehensive Respiratory Healthcare Suite</h2>
+        <p class="section-subtitle">Designed for clinical precision, built for daily household convenience.</p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon bg-teal">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="22"/></svg>
+          </div>
+          <h3>Passive Audio Monitoring</h3>
+          <p>Continuous low-power acoustic evaluation detects cough frequencies, distinguishes dry vs. wet coughs, and tracks respiration rates passively.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon bg-blue">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+          </div>
+          <h3>ResNet Chest X-Ray Screening</h3>
+          <p>Instant computer vision analysis of chest X-rays identifying opacities, consolidations, and density variations with confidence heatmaps.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon bg-purple">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+          </div>
+          <h3>Weekly Health Trends</h3>
+          <p>7-day statistical analytics correlating environmental air quality index (AQI) and pollen levels with individual cough frequency.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon bg-emerald">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.5 20.5L3 13l7.5-7.5"/><path d="M13.5 3.5L21 11l-7.5 7.5"/></svg>
+          </div>
+          <h3>Medication Tracker</h3>
+          <p>Scheduled dosage reminders, one-tap dose completion logging, and progress adherence tracking for prescribed inhalers and medications.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon bg-amber">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h3>Household Multi-Profile</h3>
+          <p>Manage separate health profiles for family members, switch active monitoring targets, and receive personalized alerts for each member.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon bg-indigo">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+          </div>
+          <h3>Automated PDF Reports</h3>
+          <p>Generate clinical PDF reports detailing screening findings, observations, and structured recommendations formatted for physicians.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AI Architecture Pipeline -->
+  <section id="architecture" class="architecture-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">The BreathSense AI Pipeline</h2>
+        <p class="section-subtitle">From acoustic waveform capture to deep neural classification.</p>
+      </div>
+
+      <div class="pipeline-steps">
+        <div class="step-card">
+          <div class="step-num">01</div>
+          <h4>16kHz WAV Chunking</h4>
+          <p>5-second audio samples captured via low-latency recording buffer and normalized for spectral inference.</p>
+        </div>
+        <div class="step-arrow">&rarr;</div>
+        <div class="step-card">
+          <div class="step-num">02</div>
+          <h4>DenseNet & ResNet Inference</h4>
+          <p>Parallel feature extraction evaluating cough acoustics, spectrogram frequency bands, and visual radiographies.</p>
+        </div>
+        <div class="step-arrow">&rarr;</div>
+        <div class="step-card">
+          <div class="step-num">03</div>
+          <h4>Real-time Decision Engine</h4>
+          <p>Continuous score computation, severity categorization, and secure cloud synchronization via Supabase.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Download Section -->
+  <section id="download" class="download-section">
+    <div class="container">
+      <div class="download-box">
+        <div class="download-content">
+          <h2 class="download-title">Download BreathSense AI for Android</h2>
+          <p class="download-desc">Install the full application directly on your Android device. Complete with offline standalone monitoring, instant X-ray screening, and medication tracking.</p>
+
+          <ul class="spec-list">
+            <li><strong>Version:</strong> v1.0.0 Release</li>
+            <li><strong>Package:</strong> BreathSense_AI.apk (~24 MB)</li>
+            <li><strong>Compatibility:</strong> Android 8.0 (API 26) or higher</li>
+            <li><strong>Security:</strong> Verified clean & unsigned release build</li>
+          </ul>
+
+          <div class="download-btn-wrapper">
+            <a href="BreathSense_AI.apk" download class="btn btn-download-lg btn-primary">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M17.523 15.3414C17.062 15.3414 16.687 14.9664 16.687 14.5054C16.687 14.0444 17.062 13.6694 17.523 13.6694C17.984 13.6694 18.359 14.0444 18.359 14.5054C18.359 14.9664 17.984 15.3414 17.523 15.3414ZM6.477 15.3414C6.016 15.3414 5.641 14.9664 5.641 14.5054C5.641 14.0444 6.016 13.6694 6.477 13.6694C6.938 13.6694 7.313 14.0444 7.313 14.5054C7.313 14.9664 6.938 15.3414 6.477 15.3414ZM17.99 10.7404L19.78 7.6404C19.92 7.3984 19.837 7.0894 19.595 6.9494C19.353 6.8094 19.044 6.8924 18.904 7.1344L17.07 10.3104C15.58 9.6274 13.86 9.2404 12 9.2404C10.14 9.2404 8.42 9.6274 6.93 10.3104L5.096 7.1344C4.956 6.8924 4.647 6.8094 4.405 6.9494C4.163 7.0894 4.08 7.3984 4.22 7.6404L6.01 10.7404C2.589 12.6074 0.25 16.0904 0 20.2404H24C23.75 16.0904 21.411 12.6074 17.99 10.7404Z"/>
+              </svg>
+              Download Android APK
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section id="faq" class="faq-section">
+    <div class="container">
+      <div class="section-header center">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+      </div>
+
+      <div class="faq-accordion">
+        <details class="faq-item" open>
+          <summary class="faq-question">Does the app work if the Python backend server is offline?</summary>
+          <div class="faq-answer">
+            Yes! BreathSense AI features an automatic dual-mode system. If the backend server is unreachable, the app automatically seamlessly switches to Standalone Local Mode, allowing continuous respiration monitoring, medication logging, and trend evaluation.
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary class="faq-question">Is the X-ray screening intended for medical diagnosis?</summary>
+          <div class="faq-answer">
+            No. BreathSense AI provides visual feature screening and preliminary risk indicators. All screening results should be reviewed by a certified healthcare professional or radiologist.
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary class="faq-question">How is patient data secured?</summary>
+          <div class="faq-answer">
+            All user data, logs, and profile records are encrypted and managed using Supabase Row Level Security (RLS) policies.
+          </div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <span class="brand-text">BreathSense <span class="accent-text">AI</span></span>
+        <p>AI-Powered Respiratory Monitoring & Radiography Analytics Platform.</p>
+      </div>
+      <div class="footer-copy">
+        &copy; 2026 BreathSense AI. All rights reserved. Medical Screening Software.
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
